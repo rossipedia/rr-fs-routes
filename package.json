@@ -1,33 +1,35 @@
 {
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc --build --noEmit"
-  },
-  "dependencies": {
-    "@react-router/fs-routes": "^7.6.1",
-    "@react-router/node": "^7.6.1",
-    "@react-router/serve": "^7.6.1",
-    "npm": "^11.4.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-router": "^7.6.1",
-    "zod": "^3.25.46"
-  },
-  "devDependencies": {
-    "@react-router/dev": "^7.6.1",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.8",
-    "@types/node": "^22.15.29",
-    "@types/react": "^19.1.6",
-    "@types/react-dom": "^19.1.5",
-    "daisyui": "^5.0.43",
-    "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3",
-    "vite": "^6.3.5",
-    "vite-tsconfig-paths": "^5.1.4"
-  }
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "react-router build",
+		"dev": "react-router dev",
+		"start": "react-router-serve ./build/server/index.js",
+		"typecheck": "react-router typegen && tsc --build --noEmit"
+	},
+	"dependencies": {
+		"@react-router/fs-routes": "^7.14.2",
+		"@react-router/node": "^7.14.2",
+		"@react-router/serve": "^7.14.2",
+		"isbot": "^5.1.39",
+		"npm": "^11.13.0",
+		"react": "^19.2.5",
+		"react-dom": "^19.2.5",
+		"react-router": "^7.14.2",
+		"zod": "^4.3.6"
+	},
+	"devDependencies": {
+		"@react-router/dev": "^7.14.2",
+		"@tailwindcss/typography": "^0.5.19",
+		"@tailwindcss/vite": "4.2.2",
+		"@types/node": "^25.6.0",
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
+		"daisyui": "^5.5.19",
+		"tailwindcss": "4.2.2",
+		"typescript": "^6.0.3",
+		"vite": "catalog:",
+		"vite-plus": "catalog:"
+	},
+	"packageManager": "pnpm@10.33.2"
 }
