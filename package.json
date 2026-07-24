@@ -25,9 +25,10 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "daisyui": "^5",
+    "oxfmt": "^0.60.0",
     "tailwindcss": "^4",
     "typescript": "^6",
-    "vite-plus": "catalog:"
+    "vite": "^8"
   },
   "packageManager": "pnpm@11.7.0"
 }
